@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eaglercraft - Browser Minecraft</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="canvas-container"></div>
+    <div id="hud">
+        <div id="crosshair"></div>
+        <div id="info">
+            <p>WASD: Move | Mouse: Look | Left Click: Break | Right Click: Place | E: Inventory</p>
+            <p id="coordinates">X: 0 Y: 0 Z: 0</p>
+            <p id="fps">FPS: 0</p>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="js/world.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/blocks.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
